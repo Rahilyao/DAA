@@ -5,7 +5,7 @@
 import java.util.Arrays;
 
 public class Main {
-    public static void bubbleSort(int[] arr) {
+    public static void BubbleSort(int[] arr) {
         int n = arr.length;
         boolean flag = true;
 
@@ -28,7 +28,7 @@ public class Main {
 
         int[] A = {-5, 3, 2, 1, -3, -3, 7, 2, 2};
 
-        bubbleSort(A);
+        BubbleSort(A);
 
         System.out.println(Arrays.toString(A));
     }
